@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE9F4E4C1EDFD71C002C5525 /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9F4E491EDFD71C002C5525 /* IDZSwiftCommonCrypto.framework */; };
+		AE9F4E4D1EDFD71C002C5525 /* SecurityExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9F4E4A1EDFD71C002C5525 /* SecurityExtensions.framework */; };
+		AE9F4E4E1EDFD71C002C5525 /* SwiftBytes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9F4E4B1EDFD71C002C5525 /* SwiftBytes.framework */; };
 		D88FC341A132926F20AC6032 /* Pods_SelfSignedCert_SelfSignedCertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD23127710BC95FA3D99D6E7 /* Pods_SelfSignedCert_SelfSignedCertTests.framework */; };
 		F20FF2050E935FEB6DE3C99C /* Pods_SelfSignedCert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC68B68E46D467E8BB4AFC /* Pods_SelfSignedCert.framework */; };
 		F81B16AF1CEA19FB00C1EBD8 /* OIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81B16AE1CEA19FB00C1EBD8 /* OIDTests.swift */; };
@@ -38,9 +41,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AE9F4E481EDFD664002C5525 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		05A7DF70B381EC92BF7DDEE8 /* Pods-SelfSignedCert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCert.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCert/Pods-SelfSignedCert.release.xcconfig"; sourceTree = "<group>"; };
 		4836078350871F932B2FC1ED /* Pods-SelfSignedCert-SelfSignedCertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCert-SelfSignedCertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCert-SelfSignedCertTests/Pods-SelfSignedCert-SelfSignedCertTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE9F4E491EDFD71C002C5525 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDZSwiftCommonCrypto.framework; path = "../../../Library/Developer/Xcode/DerivedData/SelfSignedCert-grelkeqiwmixfrdhmkkbikzqfbiu/Build/Products/Debug-iphonesimulator/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.framework"; sourceTree = "<group>"; };
+		AE9F4E4A1EDFD71C002C5525 /* SecurityExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityExtensions.framework; path = "../../../Library/Developer/Xcode/DerivedData/SelfSignedCert-grelkeqiwmixfrdhmkkbikzqfbiu/Build/Products/Debug-iphonesimulator/SecurityExtensions/SecurityExtensions.framework"; sourceTree = "<group>"; };
+		AE9F4E4B1EDFD71C002C5525 /* SwiftBytes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftBytes.framework; path = "../../../Library/Developer/Xcode/DerivedData/SelfSignedCert-grelkeqiwmixfrdhmkkbikzqfbiu/Build/Products/Debug-iphonesimulator/SwiftBytes/SwiftBytes.framework"; sourceTree = "<group>"; };
 		BEBC68B68E46D467E8BB4AFC /* Pods_SelfSignedCert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedCert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90CB0D9424155ACF2F629DA /* Pods-SelfSignedCert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCert/Pods-SelfSignedCert.debug.xcconfig"; sourceTree = "<group>"; };
 		DA4EEC696B3BA3AC825153AC /* Pods-SelfSignedCert-SelfSignedCertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCert-SelfSignedCertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCert-SelfSignedCertTests/Pods-SelfSignedCert-SelfSignedCertTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9F4E4C1EDFD71C002C5525 /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				AE9F4E4D1EDFD71C002C5525 /* SecurityExtensions.framework in Frameworks */,
+				AE9F4E4E1EDFD71C002C5525 /* SwiftBytes.framework in Frameworks */,
 				F20FF2050E935FEB6DE3C99C /* Pods_SelfSignedCert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +123,9 @@
 		F580BAF709943D3830AA7760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE9F4E491EDFD71C002C5525 /* IDZSwiftCommonCrypto.framework */,
+				AE9F4E4A1EDFD71C002C5525 /* SecurityExtensions.framework */,
+				AE9F4E4B1EDFD71C002C5525 /* SwiftBytes.framework */,
 				BEBC68B68E46D467E8BB4AFC /* Pods_SelfSignedCert.framework */,
 				FD23127710BC95FA3D99D6E7 /* Pods_SelfSignedCert_SelfSignedCertTests.framework */,
 			);
@@ -192,6 +216,7 @@
 				F8B8C54B1CDBCCB800FC4174 /* Headers */,
 				F8B8C54C1CDBCCB800FC4174 /* Resources */,
 				CBCA3BFEED740B1FFE9790E5 /* [CP] Copy Pods Resources */,
+				AE9F4E481EDFD664002C5525 /* CopyFiles */,
 			);
 			buildRules = (
 			);
